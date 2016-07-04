@@ -14,6 +14,7 @@
 		808C3D3D1D272706003A2900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808C3D3B1D272706003A2900 /* LaunchScreen.storyboard */; };
 		808C3D481D272706003A2900 /* tipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C3D471D272706003A2900 /* tipperTests.swift */; };
 		808C3D531D272706003A2900 /* tipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C3D521D272706003A2900 /* tipperUITests.swift */; };
+		808C3D611D28D742003A2900 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C3D601D28D742003A2900 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		808C3D4E1D272706003A2900 /* tipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		808C3D521D272706003A2900 /* tipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipperUITests.swift; sourceTree = "<group>"; };
 		808C3D541D272706003A2900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808C3D601D28D742003A2900 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				808C3D321D272706003A2900 /* AppDelegate.swift */,
 				808C3D341D272706003A2900 /* ViewController.swift */,
 				808C3D361D272706003A2900 /* Main.storyboard */,
+				808C3D601D28D742003A2900 /* SettingsViewController.swift */,
 				808C3D391D272706003A2900 /* Assets.xcassets */,
 				808C3D3B1D272706003A2900 /* LaunchScreen.storyboard */,
 				808C3D3E1D272706003A2900 /* Info.plist */,
@@ -193,6 +196,8 @@
 				TargetAttributes = {
 					808C3D2E1D272706003A2900 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 64MU8BP39E;
+						DevelopmentTeamName = "Pushpinder Jaswal (Personal Team)";
 						ProvisioningStyle = Automatic;
 					};
 					808C3D421D272706003A2900 = {
@@ -261,6 +266,7 @@
 			files = (
 				808C3D351D272706003A2900 /* ViewController.swift in Sources */,
 				808C3D331D272706003A2900 /* AppDelegate.swift in Sources */,
+				808C3D611D28D742003A2900 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.push.tipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.push.tipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -495,6 +503,7 @@
 				808C3D591D272706003A2900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		808C3D5A1D272706003A2900 /* Build configuration list for PBXNativeTarget "tipperTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +512,7 @@
 				808C3D5C1D272706003A2900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		808C3D5D1D272706003A2900 /* Build configuration list for PBXNativeTarget "tipperUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +521,7 @@
 				808C3D5F1D272706003A2900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
